@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: sgtakeru/github_actions_test@v2
+        uses: sgtakeru/github_actions_test@v1
         with:
           who-to-greet: 'Foo bar/ Mona the Octocat'
       # Use the output from the `hello` step
